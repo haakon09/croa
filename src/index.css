@@ -1,0 +1,15 @@
+/* Tvinger alt til å være svart fra første mikrosekund */
+html, body, #root {
+  background-color: #000000 !important;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; /* Hindrer hvit scrollbar-flash */
+}
+
+/* Sørger for at React-containeren dekker hele skjermen */
+#root {
+  display: flex;
+  flex-direction: column;
+}
